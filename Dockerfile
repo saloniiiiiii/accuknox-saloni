@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-bash
+FROM alpine:latest
 
 # Create app directory
 WORKDIR /app
