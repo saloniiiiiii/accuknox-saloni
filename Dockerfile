@@ -8,7 +8,7 @@ EXPOSE 4499
 
 USER root
 
-RUN chmod 777 /app
+RUN chmod 777 /app/wisecow.sh
 
 #CMD chmod 777 /app/wisecow.sh
 
