@@ -8,6 +8,6 @@ COPY . ./
 
 EXPOSE 4499
 
-RUN chmod +x /app/wisecow.sh
+CMD chmod +x /app/wisecow.sh
 
 ENTRYPOINT ["/bin/sh", "/app/wisecow.sh"]
