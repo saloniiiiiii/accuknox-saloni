@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: wisecow
-          image: public.ecr.aws/v6b3r3l0/accuknox-project-saloni:1.1
+          image: 512072493109.dkr.ecr.ap-south-1.amazonaws.com/wisecow:1.1
           imagePullPolicy: Always
           ports:
             - containerPort: 4499
