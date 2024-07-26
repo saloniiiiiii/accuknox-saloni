@@ -7,6 +7,6 @@ COPY . .
 
 EXPOSE 4499
 
-CMD chmod +x /app/wisecow.sh
+RUN chmod +x /app/wisecow.sh
 
 CMD ["/app/wisecow.sh", "run"]
