@@ -7,4 +7,4 @@ COPY . .
 
 EXPOSE 4499
 
-RUN /app/wisecow.sh
+RUN wisecow.sh
