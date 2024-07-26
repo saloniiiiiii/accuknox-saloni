@@ -1,12 +1,14 @@
 FROM alpine:latest
 
+USER root
 # Create app directory
-WORKDIR /app
 
-COPY . .
+COPY . /app
+
+WORKDIR /app
 
 EXPOSE 4499
 
-RUN chmod +x /app/wisecow.sh
+CMD chmod +x /app/wisecow.sh
 
 CMD ["/app/wisecow.sh", "run"]
