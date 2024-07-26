@@ -3,7 +3,7 @@ FROM frolvlad/alpine-bash
 # Create app directory
 WORKDIR /app
 
-COPY . .
+COPY . /app
 
 EXPOSE 4499
 
