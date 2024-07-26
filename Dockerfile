@@ -6,10 +6,6 @@ COPY . .
 
 EXPOSE 4499
 
-USER root
+CMD chmod +x wisecow.sh
 
-RUN chmod 777 /app/wisecow.sh
-
-#CMD chmod 777 /app/wisecow.sh
-
-CMD ["/app/wisecow.sh", "run"]
+ENTRYPOINT ["run", "wisecow.sh"]
