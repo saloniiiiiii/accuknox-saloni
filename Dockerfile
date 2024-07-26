@@ -1,8 +1,10 @@
 FROM alpine:latest
 # Create app directory
+RUN mkdir /app
+
 WORKDIR /app
 
-COPY . .
+COPY . ./
 
 EXPOSE 4499
 
