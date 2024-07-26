@@ -4,10 +4,10 @@ RUN mkdir /app
 
 WORKDIR /app
 
-COPY . ./
+COPY . .
 
 EXPOSE 4499
 
 CMD chmod +x /app/wisecow.sh
 
-ENTRYPOINT ["/usr/bin/env bash", "/app/wisecow.sh"]
+ENTRYPOINT ["run", "/app/wisecow.sh"]
