@@ -8,6 +8,6 @@ EXPOSE 4499
 
 USER root
 
-CMD chmod +x /app/wisecow.sh
+CMD chmod 755 /app/wisecow.sh
 
 CMD ["/app/wisecow.sh", "run"]
