@@ -2,13 +2,12 @@ FROM alpine:latest
 
 USER root
 # Create app directory
-
-COPY . /app
-
 WORKDIR /app
+
+COPY . .
 
 EXPOSE 4499
 
 CMD chmod +x /app/wisecow.sh
 
-CMD ["/app/wisecow.sh", "run"]
+CMD ["wisecow.sh", "run"]
