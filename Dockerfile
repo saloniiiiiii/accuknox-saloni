@@ -8,4 +8,4 @@ EXPOSE 4499
 
 CMD chmod +x wisecow.sh
 
-ENTRYPOINT ["run", "wisecow.sh"]
+ENTRYPOINT ["wisecow.sh", "run"]
