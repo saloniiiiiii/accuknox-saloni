@@ -10,4 +10,4 @@ EXPOSE 4499
 
 CMD chmod +x /app/wisecow.sh
 
-ENTRYPOINT ["/bin/sh", "/app/wisecow.sh"]
+ENTRYPOINT ["/usr/bin/env bash", "/app/wisecow.sh"]
