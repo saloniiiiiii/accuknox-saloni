@@ -18,5 +18,3 @@ spec:
         - name: wisecow
           image: 512072493109.dkr.ecr.ap-south-1.amazonaws.com/wisecow:1.1
           imagePullPolicy: Always
-          ports:
-            - containerPort: 4499
